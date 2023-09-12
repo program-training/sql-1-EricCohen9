@@ -10,3 +10,4 @@
 10 select count(DISTINCT category_id) from products;
 11 select * from products where discontinued = 1
 12 select * from orders where extract (year from order_date)=1997
+13 select * from customers where contact_title in ('Owner','CEO');
