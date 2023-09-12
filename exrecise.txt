@@ -17,3 +17,5 @@
 17 select * from products where units_in_stock<10 and discontinued=1
 18 SELECT MAX(unit_price) AS MaxUnitPrice, MIN(unit_price) AS MinUnitPrice FROM products;
 19 select * from orders where  order_date = '05-05-1997'
+20 	select product_name ,units_in_stock from products
+
