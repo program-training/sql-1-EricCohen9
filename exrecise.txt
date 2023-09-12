@@ -7,3 +7,4 @@
 7 select * from products where units_on_order =0
 8 SELECT AVG(unit_price) FROM Products
 9 SELECT SUM(units_on_order * unit_price) AS TotalAmountEarned FROM products WHERE product_id = 2 ;
+10 select count(DISTINCT category_id) from products;
