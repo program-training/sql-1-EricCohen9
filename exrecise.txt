@@ -9,3 +9,4 @@
 9 SELECT SUM(units_on_order * unit_price) AS TotalAmountEarned FROM products WHERE product_id = 2 ;
 10 select count(DISTINCT category_id) from products;
 11 select * from products where discontinued = 1
+12 select * from orders where extract (year from order_date)=1997
